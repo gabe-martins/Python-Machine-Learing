@@ -4,7 +4,7 @@ from sklearn.ensemble import ExtraTreesClassifier
 
 
 #Carrega o dataset
-file = pd.read_csv('./wine_dataset.csv')
+file = pd.read_csv('/wine_dataset.csv')
 
 file['style'] = file['style'].replace('red', 0)
 file['style'] = file['style'].replace('white', 1)
